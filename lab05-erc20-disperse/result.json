@@ -1,0 +1,31 @@
+{
+  "labs": {
+    "lab5": {
+      "network": "sepolia",
+      "wallet": "0xFfEc7eD9b57aC58178d3bbd46F981f0e91201022",
+      "token_contract": "0x72642530BBe94627D7B610cf8F4153f0B93Fbeb4",
+      "token_name": "Student Token",
+      "token_symbol": "STUD",
+      "token_decimals": 18,
+      "token_total_supply": "1000000",
+      "deploy_tx": "0x3277ee5232981a909c9e75881173210b2667f2fe8f9ccbebb1c6a46e64496b87",
+      "transfer_txs": [
+        "0x8a20a67f22715d5304a86abe5d73ada8e0bd1670eeb53108979f90a5712beb33",
+        "0xe7f1f17ab60e58e674d48779e136e508a175e81ed35f4b287f294aca11e9a88d",
+        "0x3b8da08cc80f8e8f43a736db3d42f651ff24355b11510943b09fb26a4da30a17"
+      ],
+      "disperse_contract": "0xaDaa5CaF713a6a6978E1477b2f5233984076c027",
+      "approval_tx": "0x880c9682c8548973390fc5ff6bd9188b3bc3a6394afcda039217bdc170dfed14",
+      "disperse_tx": "0x708475a7a52f56fdbaaf53c1c55c533d229f7ef606cb77900d03bfefc8535019",
+      "disperse_recipients": [
+        "0x47EA17F6E2a204c0208C0b67C6e18699ad0e6c0f",
+        "0x1083125517d1F3AB0fD97e70417c44a8131A4121",
+        "0x535ad5B8C360F866A3C58C05890F777432197F1c"
+      ],
+      "transfer_events_in_disperse_tx": 3,
+      "explorer_token": "https://sepolia.etherscan.io/address/0x72642530BBe94627D7B610cf8F4153f0B93Fbeb4",
+      "explorer_disperse_tx": "https://sepolia.etherscan.io/tx/0x708475a7a52f56fdbaaf53c1c55c533d229f7ef606cb77900d03bfefc8535019",
+      "disperse_note": "disperse.app is a browser interface; contracts/Disperse.sol reimplements the same approve + transferFrom batch pattern"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "labs": {
+    "lab8": {
+      "network": "westend",
+      "polkadot_wallet": "5F45hMzGVLrcuEkMnLdMqv9gzqhbAA4ndGMHWTApoHJG3oUU",
+      "recipient": "5FEfj5uFxhXqBH68HDQ5rASkpK7kXnEMePv8u5NNNkgquZym",
+      "amount_wnd": "1.0",
+      "extrinsic_hash": "0xcfca633ce5276565df0e140ef2ec5347369fa1e36186da6b76368ae88ce00bd3",
+      "block_hash": "0x9d53b674b6b4fa7d96ecea1a5a714c48286a202c9c0fdf3889ded7c112705486",
+      "block_number": 32231957,
+      "pallet": "Balances",
+      "method": "transfer_keep_alive",
+      "fee_wnd": "0.016027",
+      "events": [
+        "Balances.Withdraw",
+        "System.NewAccount",
+        "Balances.Endowed",
+        "Balances.Transfer",
+        "Balances.Deposit",
+        "TransactionPayment.TransactionFeePaid",
+        "System.ExtrinsicSuccess"
+      ],
+      "explorer_url": "https://westend.subscan.io/extrinsic/0xcfca633ce5276565df0e140ef2ec5347369fa1e36186da6b76368ae88ce00bd3",
+      "recipient_note": "stand-in Westend account; replace with the instructor address when it is published",
+      "funding_note": "the relay balance arrived via the Lab 9 XCM teleport from Asset Hub, because the faucet only drips to Asset Hub"
+    }
+  }
+}

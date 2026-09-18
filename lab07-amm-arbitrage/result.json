@@ -1,0 +1,44 @@
+{
+  "labs": {
+    "lab7": {
+      "network": "sepolia",
+      "wallet": "0xFfEc7eD9b57aC58178d3bbd46F981f0e91201022",
+      "dex_alpha": "0xD66d4dbE081A34944522ce90d7787368ddf92561",
+      "dex_beta": "0x6BD106CA9595c6292ed893Bd9608ad67a369a40E",
+      "test_token": "0x2ceDB3c569c58412925CA038C0e17403C712e63A",
+      "usdc_token": "0xF0ab37531706054F10DE3f95A6a2e3Fc5c558CC1",
+      "alpha_reserves": {
+        "test": "1000",
+        "usdc": "5000"
+      },
+      "beta_reserves": {
+        "test": "800",
+        "usdc": "4800"
+      },
+      "price_alpha": "5.0000",
+      "price_beta": "6.0000",
+      "strategy": "Buy TEST on Alpha (cheaper), sell TEST on Beta (dearer)",
+      "trade_size_usdc": "200",
+      "swap_txs": [
+        "0x977ca15c38fafacaf47e24eb71931c71268f2c106be27e9fa10972b416bfa45b",
+        "0x97bbc5353a3ba9bc7589c9d87364beec1b00b568242bd421c7b2bb7c7b3e412b"
+      ],
+      "test_bought": "38.3506",
+      "usdc_returned": "218.9486",
+      "profit_usdc": "+18.9486",
+      "profit_percent": "+9.47",
+      "final_usdc_value": "6444745.4683",
+      "alpha_reserves_after": {
+        "test": "961",
+        "usdc": "5200"
+      },
+      "beta_reserves_after": {
+        "test": "838",
+        "usdc": "4581"
+      },
+      "explorer_swap_1": "https://sepolia.etherscan.io/tx/0x977ca15c38fafacaf47e24eb71931c71268f2c106be27e9fa10972b416bfa45b",
+      "explorer_swap_2": "https://sepolia.etherscan.io/tx/0x97bbc5353a3ba9bc7589c9d87364beec1b00b568242bd421c7b2bb7c7b3e412b",
+      "substitution_note": "DEX Alpha and DEX Beta are stand-in SimpleAMM deployments; the lab defers the class DEX addresses to the instructor"
+    }
+  }
+}
