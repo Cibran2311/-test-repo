@@ -1,0 +1,17 @@
+{
+  "labs": {
+    "lab4": {
+      "tx_hash": "0x0c5e016287702379cd8fcd7fa28b18e514120482b18cf365f67f825e73b0f0dc",
+      "gas_limit": 21000,
+      "gas_used": 21000,
+      "status": "success",
+      "nonce": 0,
+      "block_number": 11397394,
+      "effective_gas_price_gwei": "1.1062468",
+      "base_fee_gwei": "1.1047468",
+      "transaction_fee_eth": "0.0000232311828",
+      "explorer_url": "https://sepolia.etherscan.io/tx/0x0c5e016287702379cd8fcd7fa28b18e514120482b18cf365f67f825e73b0f0dc",
+      "explanation": "Gas is the unit that measures how much computation a transaction consumes. The gas limit is the ceiling the sender authorises in advance: it is the maximum amount of gas the network may charge for this transaction. Gas used is how much was actually consumed once the transaction executed. A plain ETH transfer touches no contract code, so it always consumes exactly 21000 gas, and setting a higher limit changes nothing: the unused part is not charged. The fee is gas used multiplied by the effective gas price, where under EIP-1559 that price is the block base fee plus the priority fee, capped by maxFeePerGas. If execution runs out of gas before finishing, the transaction fails, its state changes are reverted, but the gas already burned is still paid for, which is why the limit protects the sender from an unbounded charge rather than from paying at all."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "labs": {
+    "lab3": {
+      "transactions": [
+        "alice->bob:10",
+        "bob->carol:5",
+        "carol->dave:2",
+        "dave->alice:1",
+        "alice->eve:7"
+      ],
+      "merkle_root": "21523d53294b378cb7f9b71dd3acbbbbb0e53409e8d3550fa24bbe7d5b32dfa3",
+      "nonce": 119473,
+      "block_hash": "0000cbe5abd0e396c0cb6da00be9c1e01afd65306488ed336dff16fe2ab67755",
+      "difficulty": "0000",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "student_id": "123456",
+      "header_format": "prev_hash + merkle_root + student_id + str(nonce)",
+      "hash_algorithm": "sha256",
+      "script_path": "notebooks/lab3.ipynb"
+    }
+  }
+}
