@@ -1,0 +1,33 @@
+{
+  "labs": {
+    "lab9": {
+      "source_chain": "Westend Asset Hub",
+      "destination_chain": "Westend Relay",
+      "polkadot_wallet": "5F45hMzGVLrcuEkMnLdMqv9gzqhbAA4ndGMHWTApoHJG3oUU",
+      "extrinsic_hash": "0x98b6902b577ed5cb685196c2cb93d3e0549375234306cebb1d70446683fc39a1",
+      "block_hash": "0x3740f54ed05c7a0b8b464f2836f096049fd91dac1bcc83e064bacee6687fd4b8",
+      "pallet": "PolkadotXcm",
+      "method": "limited_teleport_assets",
+      "xcm_version": "V4",
+      "amount_wnd": "3",
+      "amount_delivered_wnd": "2.997225",
+      "fee_wnd": "0.001997",
+      "events": [
+        "Balances.Withdraw",
+        "Balances.Minted",
+        "Balances.Withdraw",
+        "Balances.BurnedDebt",
+        "PolkadotXcm.Attempted",
+        "Balances.Withdraw",
+        "Balances.Deposit",
+        "PolkadotXcm.FeesPaid",
+        "ParachainSystem.UpwardMessageSent",
+        "PolkadotXcm.Sent",
+        "Balances.Deposit"
+      ],
+      "explorer_url": "https://assethub-westend.subscan.io/extrinsic/0x98b6902b577ed5cb685196c2cb93d3e0549375234306cebb1d70446683fc39a1",
+      "explanation": "The action started on Westend Asset Hub and was executed on Westend Relay. The asset moved by teleport: WND was burned on the source chain and an equal amount minted on the destination, which is safe here because both chains trust each other as part of one consensus system. This differs from a normal transfer because a normal transfer changes two balances inside a single state machine, whereas this submitted one extrinsic on the source chain that emitted an XCM message; the destination chain then executed that message in its own block, which is why the funds appeared a few blocks later and why part of the amount was consumed as execution fees on the far side. It also differs from a bridge: no external relayer or wrapped-asset contract is involved, the message is carried by the relay chain itself.",
+      "direction_note": "the lab describes Westend -> AssetHub; the faucet only funded Asset Hub and enforces a daily quota, so the teleport runs in the opposite direction"
+    }
+  }
+}

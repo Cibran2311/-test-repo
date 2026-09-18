@@ -1,0 +1,21 @@
+{
+  "labs": {
+    "lab10": {
+      "network": "ton_testnet",
+      "ton_wallet": "kQDIEauY4-AmeD26bfNLqsxRojW4YdQs26Qk55IqKvuqIaL5",
+      "wallet_version": "WalletContractV4",
+      "recipient": "kQCdjafoEk7BY_ON4ktces8pksqcwuqqQAofqwgaOKZCOjos",
+      "recipient_non_bounceable": "0QCdjafoEk7BY_ON4ktces8pksqcwuqqQAofqwgaOKZCOmfp",
+      "amount_ton": "0.01",
+      "tx_hash_hex": "e51d4ad7e166ea7f4bd9f85c640840523398e046781a26ceec483f782bd78a12",
+      "tx_hash_base64": "5R1K1+Fm6n9L2fhcZAhAUjOY4EZ4GibO7Eg/eCvXihI=",
+      "logical_time": "87012726000001",
+      "tx_link": "https://testnet.tonviewer.com/transaction/e51d4ad7e166ea7f4bd9f85c640840523398e046781a26ceec483f782bd78a12",
+      "explorer_wallet": "https://testnet.tonviewer.com/kQDIEauY4-AmeD26bfNLqsxRojW4YdQs26Qk55IqKvuqIaL5",
+      "sender_state_before": "uninitialized",
+      "sender_state_after": "active",
+      "recipient_note": "stand-in testnet wallet; replace with the instructor address when it is published",
+      "ton_note": "the wallet is a contract deployed by its own first outgoing message; the transfer used the non-bounceable recipient form because the destination account did not exist yet"
+    }
+  }
+}

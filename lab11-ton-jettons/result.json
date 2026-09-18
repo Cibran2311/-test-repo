@@ -1,0 +1,25 @@
+{
+  "labs": {
+    "lab11": {
+      "network": "ton_testnet",
+      "ton_wallet": "kQDIEauY4-AmeD26bfNLqsxRojW4YdQs26Qk55IqKvuqIaL5",
+      "jetton_master": "kQAxhIHp-GD_CYqdaQ4pSKNJ9FPHK0ZuONqXIDmkRPDRBmKD",
+      "jetton_name": "Student Jetton",
+      "jetton_symbol": "SJET",
+      "jetton_decimals": 9,
+      "total_supply": "1000",
+      "sender_jetton_wallet": "kQBs39T6EMgD7dwgZBjRzXL7n-PuYiXqj84g_DdMm9Qgzsv5",
+      "recipient_jetton_wallet": "kQB0WDOvzP1EmuoOw0x2zx8eyu4-JRhEI1ZJeqJ63M5zJ6on",
+      "recipient_ton_wallet": "kQCdjafoEk7BY_ON4ktces8pksqcwuqqQAofqwgaOKZCOjos",
+      "transfer_amount": "25",
+      "tx_hash_hex": "8dcf2bad906389160556e7dccca54497cd1b8ca5b609456093c26384b83c2d56",
+      "tx_link": "https://testnet.tonviewer.com/transaction/8dcf2bad906389160556e7dccca54497cd1b8ca5b609456093c26384b83c2d56",
+      "explorer_jetton_master": "https://testnet.tonviewer.com/kQAxhIHp-GD_CYqdaQ4pSKNJ9FPHK0ZuONqXIDmkRPDRBmKD",
+      "explorer_sender_jetton_wallet": "https://testnet.tonviewer.com/kQBs39T6EMgD7dwgZBjRzXL7n-PuYiXqj84g_DdMm9Qgzsv5",
+      "owner_balance_after": "975",
+      "recipient_balance_after": "25",
+      "explanation": "In TON each holder owns a separate Jetton Wallet contract. The Jetton Master stores only the metadata, the total supply and the code used to derive holder wallets; it never stores balances. A transfer is therefore not one contract updating a mapping, as in ERC20, but a chain of internal messages: the owner TON wallet sends a transfer message to its own Jetton Wallet, that contract deducts the amount and sends an internal_transfer message to the recipient's Jetton Wallet, which credits the balance and sends back excess TON. Each Jetton Wallet address is deterministic, derived from the Master address plus the owner address, which is why it can be computed before the contract even exists. This design fits the sharded, asynchronous architecture of TON: two holders in different shards never contend for one shared storage slot.",
+      "substitution_note": "the Jetton Master is deployed by this script using the standard jetton contracts; the lab defers the class Jetton Master address to the instructor"
+    }
+  }
+}
