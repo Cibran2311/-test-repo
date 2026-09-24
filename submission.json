@@ -141,11 +141,11 @@
           "0x5555555555555555555555555555555555555555"
         ],
         "connection_txs": [
-          "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
-          "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
-          "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+          "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+          "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
         ],
-        "start_chain_tx": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "start_chain_tx": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
         "event_order": [
           "ChainStarted",
           "LinkExecuted",
