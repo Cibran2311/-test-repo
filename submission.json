@@ -1,0 +1,181 @@
+{
+  "schema_version": 2,
+  "student_id": "TEST-001",
+  "labs": {
+    "lab1": {
+      "status": "draft",
+      "network": "sepolia",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab2": {
+      "status": "draft",
+      "network": "offchain",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab3": {
+      "status": "draft",
+      "network": "offchain",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab4": {
+      "status": "draft",
+      "network": "sepolia",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab5": {
+      "status": "draft",
+      "network": "sepolia",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab6": {
+      "status": "draft",
+      "network": "sepolia",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab7": {
+      "status": "draft",
+      "network": "sepolia",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab8": {
+      "status": "draft",
+      "network": "westend",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab9": {
+      "status": "draft",
+      "network": "westend-assethub",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab10": {
+      "status": "draft",
+      "network": "ton-testnet",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab11": {
+      "status": "draft",
+      "network": "ton-testnet",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "lab12": {
+      "status": "submitted",
+      "network": "ton-testnet",
+      "evidence": {
+        "mode": "hackton",
+        "tx_hashes": [],
+        "router_address": "",
+        "proof": "https://github.com/Cibran2311/-test-repo/blob/main/lab12-ton-defi-security/README.md"
+      },
+      "links": [
+        "https://github.com/Cibran2311/-test-repo/blob/main/lab12-ton-defi-security/README.md"
+      ],
+      "answers": {
+        "security_explanation": "TEST FIXTURE: the report describes a HackTON vulnerability and explains how an attacker could bypass authorization and alter contract state."
+      },
+      "notes": "Synthetic smoke-test fixture only; not a real student submission."
+    }
+  },
+  "assignments": {
+    "assignment1": {
+      "status": "draft",
+      "network": "sepolia",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "assignment2": {
+      "status": "draft",
+      "network": "sepolia",
+      "evidence": {},
+      "links": [],
+      "answers": {},
+      "notes": ""
+    },
+    "assignment3": {
+      "status": "submitted",
+      "network": "sepolia",
+      "evidence": {
+        "group_id": "TEST-GROUP-001",
+        "role": "ChainLink-2",
+        "owned_contract": "0x1111111111111111111111111111111111111111",
+        "deployment_tx": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "chain_contracts": [
+          "0x1111111111111111111111111111111111111111",
+          "0x2222222222222222222222222222222222222222",
+          "0x3333333333333333333333333333333333333333",
+          "0x4444444444444444444444444444444444444444",
+          "0x5555555555555555555555555555555555555555"
+        ],
+        "connection_txs": [
+          "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+          "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+        ],
+        "start_chain_tx": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "event_order": [
+          "ChainStarted",
+          "LinkExecuted",
+          "LinkExecuted",
+          "LinkExecuted",
+          "FinalReceived"
+        ],
+        "final_result": "TEST_FIXTURE"
+      },
+      "links": [
+        "https://github.com/Cibran2311/-test-repo/tree/main/lab07-amm-arbitrage"
+      ],
+      "answers": {
+        "individual_contribution": "TEST FIXTURE: implemented and documented the ChainLink connection logic and the event-order evidence for this synthetic precheck."
+      },
+      "notes": "Synthetic smoke-test fixture only; receipt and event values are intentionally not real."
+    },
+    "assignment4": {
+      "status": "submitted",
+      "network": "offchain",
+      "evidence": {
+        "article_url": "https://cibran2311.github.io/Newuuz-Blockchain/",
+        "topic": "Web3 blockchain testing",
+        "abstract": "TEST FIXTURE: a technical article about validating Ethereum and Sepolia smart contracts, TON security, Polkadot XCM, and reproducible blockchain course evidence."
+      },
+      "links": [
+        "https://cibran2311.github.io/Newuuz-Blockchain/"
+      ],
+      "answers": {},
+      "notes": "Synthetic smoke-test fixture only; article quality remains manual."
+    }
+  }
+}
