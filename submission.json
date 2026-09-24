@@ -118,12 +118,12 @@
       "notes": ""
     },
     "assignment2": {
-      "status": "submitted",
+      "status": "draft",
       "network": "sepolia",
       "evidence": {},
       "links": [],
       "answers": {},
-      "notes": "Temporary Assignment 2 smoke-test fixture; restore after workflow."
+      "notes": ""
     },
     "assignment3": {
       "status": "submitted",
