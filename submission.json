@@ -213,18 +213,12 @@
       "notes": "Real Sepolia integration test performed by a temporary wallet. The test uses one operator wallet and is not a claim that the course minimum of three students was met."
     },
     "assignment4": {
-      "status": "submitted",
+      "status": "draft",
       "network": "offchain",
-      "evidence": {
-        "article_url": "https://cibran2311.github.io/Newuuz-Blockchain/",
-        "topic": "Web3 blockchain testing",
-        "abstract": "TEST FIXTURE: a technical article about validating Ethereum and Sepolia smart contracts, TON security, Polkadot XCM, and reproducible blockchain course evidence."
-      },
-      "links": [
-        "https://cibran2311.github.io/Newuuz-Blockchain/"
-      ],
+      "evidence": {},
+      "links": [],
       "answers": {},
-      "notes": "Synthetic smoke-test fixture only; article quality remains manual."
+      "notes": "Intentionally not completed; article is excluded from the current execution."
     }
   }
 }
