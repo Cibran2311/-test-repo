@@ -129,39 +129,43 @@
       "status": "submitted",
       "network": "sepolia",
       "evidence": {
-        "group_id": "TEST-GROUP-001",
+        "group_id": "TEST-GROUP-REAL-2026-10-02",
         "role": "ChainLink-2",
-        "owned_contract": "0x1111111111111111111111111111111111111111",
-        "deployment_tx": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "owned_contract": "0x724806D1Aa13cde4600f7F56D9EE7625d895a510",
+        "deployment_tx": "0x5a59ca2556bbdd8e3ad6108ded477966d8059fd819543936e6033ab068833204",
         "chain_contracts": [
-          "0x1111111111111111111111111111111111111111",
-          "0x2222222222222222222222222222222222222222",
-          "0x3333333333333333333333333333333333333333",
-          "0x4444444444444444444444444444444444444444",
-          "0x5555555555555555555555555555555555555555"
+          "0x8Db8286456EeDb1a712714888fc682B067342F86",
+          "0x1ec403a678Ad6035ad06D0FAE59C446553986479",
+          "0x724806D1Aa13cde4600f7F56D9EE7625d895a510",
+          "0x473175c95955a6c8fE2354C7e579Bb4bA3eC1e57",
+          "0xA79B96fd3EacEbedB0981Fb46d6302f0E8Da764A"
         ],
         "connection_txs": [
-          "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
-          "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
-          "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+          "0x80f1f1712304b0f7427914bd6043b0f73bde7d1905dc83665b83f69793e4d69f",
+          "0x2f52c02b0fd59b75436ba1b8e9311097984ce4804aa36040b1aadfaaa88fe001",
+          "0xb87f3cf31714248c6b79c1a20d17105dff049f622459a97dbf0931d8d7fffb53",
+          "0x2c757e6308abfe347c9e10613feff6ac84a9623d49625c611e2254cd1d2ac25f"
         ],
-        "start_chain_tx": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "start_chain_tx": "0x839541990a31725888bb8af46437618278eb2523d09474eebef2d06b678769ab",
         "event_order": [
           "ChainStarted",
+          "EntryExecuted",
           "LinkExecuted",
           "LinkExecuted",
           "LinkExecuted",
-          "FinalReceived"
+          "FinalReceived",
+          "ChainCompleted"
         ],
-        "final_result": "TEST_FIXTURE"
+        "final_result": "20261002"
       },
       "links": [
-        "https://github.com/Cibran2311/-test-repo/tree/main/lab07-amm-arbitrage"
+        "https://github.com/Cibran2311/-test-repo/blob/main/assignment3-chain-of-contracts/ChainOfContracts.sol",
+        "https://github.com/Cibran2311/-test-repo/blob/main/assignment3-chain-of-contracts/README.md"
       ],
       "answers": {
-        "individual_contribution": "TEST FIXTURE: implemented and documented the ChainLink connection logic and the event-order evidence for this synthetic precheck."
+        "individual_contribution": "Deployed and connected ChainEntry, three ChainLink contracts, and ChainTerminal on Ethereum Sepolia; executed the start call and verified the emitted event order on the transaction receipt."
       },
-      "notes": "Synthetic smoke-test fixture only; receipt and event values are intentionally not real."
+      "notes": "Real Sepolia integration test performed by a temporary wallet. The test uses one operator wallet and is not a claim that the course minimum of three students was met."
     },
     "assignment4": {
       "status": "submitted",
