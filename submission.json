@@ -115,7 +115,7 @@
       "evidence": {},
       "links": [],
       "answers": {},
-      "notes": ""
+      "notes": "Not completed: the graded flow depends on the protected ASSIGNMENT1_CONFIG and the instructor's professor NFT contract. The available contract currently holds its token at the configured return address; no synthetic transactions were recorded."
     },
     "assignment2": {
       "status": "submitted",
